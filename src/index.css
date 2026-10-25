@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* 深色主题基础样式 */
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth; /* 锚点跳转时平滑滚动 */
+}
+
+body {
+  margin: 0;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 渐变色强调文字（用于首页定位语） */
+.text-gradient {
+  background-image: linear-gradient(to right, #38bdf8, #a78bfa, #f472b6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
